@@ -19,7 +19,7 @@ const network = Network.create((operation, variables) => {
       variables,
     })
   }).then(response => {
-    return rsponse.json()
+    return response.json()
   })
 })
 
